@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>perception_stack</name>
+  <version>0.0.0</version>
+  <description>The perception_stack package</description>
+
+  <maintainer email="shehab@todo.todo">shehab</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Build Dependencies -->
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>image_transport</build_depend>
+  <build_depend>message_generation</build_depend> <!-- MOVED HERE -->
+  <build_depend>rospy</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <!-- <build_depend>roscpp</build_depend> --> <!-- Add if you use C++ -->
+
+  <!-- Build Export Dependencies (needed to build against this package) -->
+  <build_export_depend>cv_bridge</build_export_depend>
+  <build_export_depend>image_transport</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <!-- <build_export_depend>roscpp</build_export_depend> -->
+
+  <!-- Execution Dependencies (needed at runtime) -->
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>image_transport</exec_depend>
+  <exec_depend>message_runtime</exec_depend> <!-- MOVED HERE -->
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <!-- <exec_depend>roscpp</exec_depend> -->
+  <!-- Add python dependencies if needed system-wide, e.g.: -->
+  <!-- <exec_depend>python3-numpy</exec_depend> -->
+  <!-- <exec_depend>python3-opencv</exec_depend> -->
+
+
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>
